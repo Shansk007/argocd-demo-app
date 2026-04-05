@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-    res.send("🚀 Hello from ArgoCD GitOps Demo v1");
+    res.send("🚀 Hello from ArgoCD GitOps Demo- now i have changed manually");
 });
 
 app.listen(3000, () => {
